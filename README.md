@@ -66,7 +66,7 @@ After extracting the source, run these commands from a terminal:
 
 By default, Nginx will be installed in /usr/local/nginx. You may change this and other options with the compile-time options .
 
-**Tweak congiguration:**
+**Tweak configuration:**
 
 lets setup the round robin load balancer. You would need to use the nginx upstream module. The upstream module allows you to group servers that can be referenced by the proxy_pass directive. In your nginx.conf, locate the http block and add the upstream block to create a group of servers:
 
